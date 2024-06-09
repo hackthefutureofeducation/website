@@ -11,7 +11,7 @@ export function Nav() {
     window.addEventListener("resize", handleResize);
   }, []);
   return (
-    <nav className="pt-2 lg:p-2 lg:m-10 bg-black lg:rounded-full lg:flex justify-evenly h-[700px] max-h-[70px]">
+    <nav className={"pt-2 lg:p-2 lg:m-10 bg-black lg:rounded-full lg:flex justify-evenly h-[700px] max-h-[70px] " +( IsMobileMenuOpen? "fixed top-0 w-screen":"")}>
       <NavLink text="Home" active={true} responsive={true} />
       <NavLink text="About" active={false} responsive={true} />
       <NavLink text="Services" active={false} responsive={true} />
@@ -43,7 +43,7 @@ export function Nav() {
         link="https://adambashaahmednaji.com/articles/"
         responsive={true}
       />
-      <div className={"bg-black w-full text-white grid mt-2 " +(IsMobileMenuOpen?" block":" hidden")}>
+      <div className={"bg-black w-full text-white grid mt-2 z-50 fixed h-[100vh] " +(IsMobileMenuOpen?" block":" hidden")}>
         <ResponsiveNavLink text="Home" />
         <ResponsiveNavLink text="About" />
         <ResponsiveNavLink text="Services" />
