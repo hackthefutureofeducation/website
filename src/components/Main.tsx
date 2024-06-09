@@ -3,8 +3,8 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 export function MainSection() {
   return (
-    <section className=" flex justify-evenly mt-[150px] items-center">
-      <div className="w-1/4">
+    <section className="p-2 lg:flex justify-evenly mt-[150px] items-center">
+      <div className="lg:w-1/4">
         <blockquote className="text-xl italic font-semibold text-black dark:text-white p-5">
           <svg
             className="w-8 h-8 text-slate-500 mb-4"
@@ -22,7 +22,7 @@ export function MainSection() {
           </p>
         </blockquote>
       </div>
-      <div className="w-1/2 text-black text-center">
+      <div className="lg:w-1/2 text-black text-center my-5 lg:my-0">
         <h1 className="text-4xl">Hello!</h1>
         <h2 className=" text-3xl">
           I am the owner of{" "}
@@ -40,8 +40,8 @@ export function MainSection() {
           ></Image>
         </div>
       </div>
-      <div>
-        <div className="flex">
+      <div className="lg:w-1/4 w-full text-center lg:text-left ">
+        <div className="flex justify-evenly">
           <FaStar size={50} className="text-yellow-500" />
           <FaStar size={50} className="text-yellow-500" />
           <FaStar size={50} className="text-yellow-500" />
