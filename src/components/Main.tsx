@@ -49,13 +49,12 @@ export function MainSection() {
             Hack the Future of Education
           </span>
         </h2>
-        <div className=" bg-green-500/50 rounded-t-full">
+        <div className=" bg-green-500/50 rounded-t-full flex justify-center">
           <Image
-            src={"/me.png"}
-            width={500}
+            src={"https://hackthefutureofeducation.github.io/website/me.png"}
+            width={300}
             height={0}
             alt="Me"
-            className="w-full"
           ></Image>
         </div>
       </div>
