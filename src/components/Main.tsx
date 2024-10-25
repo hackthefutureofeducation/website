@@ -52,7 +52,7 @@ export function MainSection() {
         <div className=" bg-green-500/50 rounded-t-full flex justify-center">
           <Image
             src={"https://hackthefutureofeducation.github.io/website/me.png"}
-            width={300}
+            width={500}
             height={0}
             alt="Me"
           ></Image>
