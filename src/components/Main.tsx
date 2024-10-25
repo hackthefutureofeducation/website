@@ -45,7 +45,7 @@ export function MainSection() {
         <h1 className="text-4xl">Hello!</h1>
         <h2 className=" text-3xl">
           I am the owner of{" "}
-          <span className="bg-gradient-to-tl from-orange-500 to-purple-800 bg-clip-text text-transparent font-bold italic">
+          <span className="bg-gradient-to-tl from-orange-500 to-purple-800 bg-clip-text text-transparent font-bold italic whitespace-nowrap">
             Hack the Future of Education
           </span>
         </h2>
