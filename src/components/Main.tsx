@@ -34,7 +34,7 @@ export function MainSection() {
   };
 
   return (
-    <section className="p-2 lg:flex justify-evenly mt-[150px] items-center">
+    <section className="p-2 lg:flex justify-evenly mt-[150px] items-center" id="Home">
       <div className="lg:w-1/4">
         <blockquote
           className="text-xl italic font-semibold text-black dark:text-white p-5 max-h-[500px] overflow-auto cursor-pointer mb-5 hover:border-2 hover:border-purple-500 hover:shadow-lg transition duration-300 ease-in-out"
