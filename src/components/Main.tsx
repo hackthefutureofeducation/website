@@ -36,7 +36,7 @@ export function MainSection() {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z" />
           </svg>
           <p className="text-black">
-            "{curentData.review}"
+          &quot;{curentData.review}&quot;
           </p>
         </blockquote>
         <button onClick={handleReview} className="w-full text-center p-5 rounded bg-gradient-to-tr from-violet-300 to-orange-200 text-lg font-bold hover:from-orange-200 hover:to-violet-300 transition-colors duration-100">See Another Review</button>
