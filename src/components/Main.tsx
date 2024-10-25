@@ -103,7 +103,7 @@ export function MainSection() {
           ></Image>
         </div>
       </div>
-      <div className="lg:w-1/4 w-full text-center lg:text-left ">
+      <div className="lg:w-1/4 w-full text-center ">
         <div className="flex justify-evenly">
           <FaStar size={50} className="text-yellow-500" />
           <FaStar size={50} className="text-yellow-500" />
