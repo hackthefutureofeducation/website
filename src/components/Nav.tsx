@@ -11,7 +11,7 @@ export function Nav() {
     window.addEventListener("resize", handleResize);
   }, []);
   return (
-    <nav className={"pt-2 lg:p-2 lg:m-10 bg-black lg:rounded-full lg:flex justify-evenly h-[700px] max-h-[70px] " +( IsMobileMenuOpen? "fixed top-0 w-screen":"")}>
+    <nav className={"pt-2 lg:p-2 lg:m-10 bg-black lg:rounded-full lg:flex justify-evenly h-[700px] max-h-[70px] sticky top-0 " +( IsMobileMenuOpen? "fixed top-0 w-screen":"")}>
       <NavLink text="Home" active={true} responsive={true} />
       <NavLink text="About" active={false} responsive={true} />
       <NavLink text="Services" active={false} responsive={true} />
