@@ -15,7 +15,7 @@ export function Nav() {
       <NavLink text="Home" active={true} responsive={true} />
       <NavLink text="About" active={false} responsive={true} />
       <NavLink text="Services" active={false} responsive={true} />
-      <div className="lg:bg-white w-full lg:w-1/5 rounded-full  mb-[-20px] lg:h-[100px] flex flex-col justify-center items-center text-black">
+      <div className="lg:p-2 lg:bg-white w-full lg:w-1/5 rounded-full  mb-[-20px] lg:h-[100px] flex flex-col justify-center items-center text-black">
         <h1 className="text-2xl font-bold text-center bg-gradient-to-tl from-orange-500 to-purple-800 bg-clip-text text-transparent">
           Hack the Future of Education
         </h1>
